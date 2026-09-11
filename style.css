@@ -156,6 +156,7 @@ h1 {
 	min-height: 0;
 	margin: 0;
 	align-self: center;
+	transform: translateY(6px);
 	object-fit: contain;
 	border-radius: 2px;
 }
@@ -217,10 +218,17 @@ h1 {
 		flex-basis: auto;
 	}
 
+	.milestone-card h2 {
+		font-size: clamp(2.4rem, 18cqw, 3.6rem);
+	}
+
+	.milestone-card h3 {
+		font-size: clamp(1rem, 7.5cqw, 1.5rem);
+	}
+
 	.milestone-card p {
 		padding: 24px;
-		font-size: 1rem;
-		line-height: 1.45;
+		font-size: clamp(0.9rem, 4.5cqw, 1.2rem);
 	}
 
 	.scroll-note {
